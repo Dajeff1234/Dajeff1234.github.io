@@ -3,11 +3,13 @@ body {
 }
 .nav-container{
 	background-color: white;
-	width: ;
+	width: atuo;
 }
 .navlist{
 	list-style: none;
 	padding: none;
+	margin: none;
+	
 }
 .navlist li{
 	display:inline-block;
