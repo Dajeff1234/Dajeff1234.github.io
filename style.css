@@ -4,12 +4,14 @@ body {
 .nav-container{
 	background-color: white;
 	width: atuo;
+	margin: none;
 }
 .navlist{
 	list-style: none;
-	padding: none;
-	margin: none;
 	
+	padding: 11px;
+	
+
 }
 .navlist li{
 	display:inline-block;
