@@ -7,4 +7,8 @@ body {
 }
 .navlist{
 	list-style: none;
+	padding: none;
+}
+.navlist li{
+	display:inline-block;
 }
