@@ -2,10 +2,12 @@ body {
 	background-color: grey;
 }
 .nav-container{
+	position: sticky;
 	background-color: white;
 	width: auto;
-	margin: none;
-	padding: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
 	display: flex;
 	box-sizing: border-box;
 }
