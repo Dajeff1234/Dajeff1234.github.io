@@ -3,8 +3,11 @@ body {
 }
 .nav-container{
 	background-color: white;
-	width: atuo;
+	width: auto;
 	margin: none;
+	padding: none;
+	display: flex;
+	box-sizing: border-box;
 }
 .navlist{
 	list-style: none;
