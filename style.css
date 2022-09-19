@@ -1,23 +1,21 @@
 body {
 	background-color: grey;
+	margin: 0px;
 }
 .nav-container{
+	top: 0%;
 	position: sticky;
 	background-color: white;
-	width: auto;
-	margin: 0;
-	padding: 0;
-	border: 0;
-	display: flex;
 	box-sizing: border-box;
 }
 .navlist{
 	list-style: none;
-	
-	padding: 11px;
-	
-
+	margin:0px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 .navlist li{
 	display:inline-block;
+	padding-right: 1%;
+	padding-left: 1%;
 }
