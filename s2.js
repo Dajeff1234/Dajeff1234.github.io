@@ -1,7 +1,6 @@
 function count(){
-    nu = document.getElementById("n")
-    let cong = 0;
-    function cs{
-        
-    }
+    let nu = document.getElementById("n");
+    let cong = 10;
+    console.log(cong)
+    nu.innerHTML = cong;
 }
