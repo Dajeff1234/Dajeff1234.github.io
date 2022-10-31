@@ -1,30 +1,36 @@
 body {
 	background-color: #F2EDDF;
 	margin: 0%;
+	
 }
-
+.nav-container{
+	float: top;
+	backdrop-filter: blur(10px);
+	background-color: #707070;
+	position: sticky!important;
+	opacity: 0.5;
+	height: auto;
+}
 .navlist{
 	list-style: none;
 	margin:0px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	
 }
 .navlist li{
 	color:#707070;
 	display:inline-block;
 	padding-right: 1%;
 	padding-left: 1%;
-	background-color:white;
 	padding-left: 50px;
 	padding-right: 50px;
-	padding-top: 13px;
-	padding-bottom: 13px;
-	border-radius: 30px;
-	border-style: solid;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
 	transition: 1s;
 }
 .navlist li:hover{
-	background-color: rgb(196, 96, 96);
+	border-style: solid;
+	border-color: white;
 }
 .navlist li a{
 	list-style: none;
