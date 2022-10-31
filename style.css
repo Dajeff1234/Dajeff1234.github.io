@@ -2,14 +2,7 @@ body {
 	background-color: #F2EDDF;
 	margin: 0%;
 }
-.nav-container{
-	margin:20px;
-	border-radius: 30px;
-	top: 0%;
-	position: sticky;
-	background-color: #BCD3AC;
-	box-sizing: border-box;
-}
+
 .navlist{
 	list-style: none;
 	margin:0px;
@@ -32,4 +25,7 @@ body {
 }
 .navlist li:hover{
 	background-color: rgb(196, 96, 96);
+}
+.navlist li a{
+	list-style: none;
 }
