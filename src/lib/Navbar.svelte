@@ -4,6 +4,7 @@
 <style>
     
     .nav-cont{
+        margin: 0px;
         background-color: rgb(86, 86, 86);
         padding:2px;
     }
