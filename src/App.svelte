@@ -3,13 +3,13 @@
 </script>
 <style>
   body{
-    margin:0px;
+    margin:none;
   }
   :root{
-    padding:0px;
+    margin: none ;
   }
   main{
-    margin: 0px;
+    margin: none;
   }
 </style>
 
