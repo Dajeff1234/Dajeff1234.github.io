@@ -2,6 +2,11 @@
     export let theme = true
 </script>
 <style>
+    
+    .nav-cont{
+        background-color: rgb(86, 86, 86);
+        padding:2px;
+    }
     .navTent{
         list-style: none;
     }
