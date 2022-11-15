@@ -1,8 +1,28 @@
+<script>
+    export let theme = true
+</script>
 <style>
-    .nav-bar-cont{
-        top: 0px;
+    .navTent{
+        list-style: none;
+    }
+    .Button{
+        background:none;
+        border:none;
+        
     }
 </style>
-<div class = "nav-bar-cont">
+<svelte:head>
+    {#if theme == true}
+  <style>:root {background: rgb(36, 36, 36);color: rgb(212, 212, 212);} .Button{color: rgb(212, 212, 212);}</style>
+  {:else if theme == false}
+  <style>:root {background: rgb(235, 235, 235);}</style>
+  {/if}
 
-</div>
+</svelte:head>
+<nav>
+    <div class = "nav-cont">
+        <ul class="navTent">
+            <li><button  class="Button" on:click="{() => theme = !theme}">theme</button></li>
+        </ul>
+    </div>
+</nav>
