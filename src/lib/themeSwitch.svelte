@@ -1,20 +1,59 @@
 
 <script>
+
     export let theme = true
+    
+    $: if (typeof document == 'object') {
+        document.documentElement.classList.toggle('dark', theme)
+    }
 </script>
-<svelte:head>
+<!-- <svelte:head>
     {#if theme}
-  <style>:root {background: rgb(36, 36, 36);color: rgb(212, 212, 212);} .Button{color: rgb(212, 212, 212);}</style>
+  <style>
+        :root {
+            background: rgb(36, 36, 36);
+            color: rgb(212, 212, 212);
+        } 
+        .Button{
+            color: rgb(212, 212, 212);
+        }
+    </style>
   {:else }
-  <style>:root {background: rgb(235, 235, 235); color: black;}</style>
+    <style>
+    :root {
+        background: rgb(235, 235, 235); 
+        color: black;
+        } 
+        .nav-cont{
+            background-color: rgb(209, 209, 209) !important;
+        }
+    </style>
   {/if}
 
-</svelte:head>
+</svelte:head> -->
+
 <li><button  class="Button" on:click="{() => theme = !theme}">theme</button></li>
 <style>
+
+    :root {
+        background: rgb(36, 36, 36);
+        color: rgb(212, 212, 212);
+    }
+
+    :root.dark {
+        background: rgb(235, 235, 235); 
+        color: black;
+    }
+
+    .dark .nav-cont {
+        background-color: rgb(209, 209, 209) !important;
+    }
+
+
     .Button{
         background:none;
         border:none;
+        color: rgb(212, 212, 212);
         
     }
 </style>
