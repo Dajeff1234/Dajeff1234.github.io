@@ -2,9 +2,6 @@
   import Navbar from "./lib/Navbar.svelte";
 </script>
 <style>
-  body{
-    margin:none;
-  }
   :root{
     margin: none ;
   }
