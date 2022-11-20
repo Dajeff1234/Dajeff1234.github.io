@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1242.94 243.49">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e6e6e6;
+      }
+
+      .cls-2 {
+        letter-spacing: .04em;
+      }
+
+      .cls-3 {
+        font-family: ArialRoundedMTBold, 'Arial Rounded MT Bold';
+        font-size: 183.39px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" width="1242.94" height="243.49" rx="87.09" ry="87.09"/>
+  <text class="cls-3" transform="translate(147.91 181.62)"><tspan x="0" y="0">daje</tspan><tspan class="cls-2" x="382.27" y="0">f</tspan><tspan x="450.15" y="0">f1234</tspan></text>
+  <text/>
+</svg>
