@@ -4,6 +4,7 @@
   import { onMount } from 'svelte';
   let ready = false;
   onMount(() => ready = true);
+  let ready2 = false;
 </script>
 <svelte:head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,7 +33,9 @@
 <main>
   <Navbar/>
   {#if ready}
-  <div class = "welcom" transition:fly={{ x: '500%' }}>welcom</div>
+  <div class = "welcom" transition:fly={{ x: '200%' }}>welcome</div>
   {/if}
-  <div class = "welcom2">to dajeff1234</div>
+  {#if ready}
+  <div class = "welcom2" transition:fly={{ y: '600%' }}>to dajeff1234</div>
+  {/if}
 </main>
