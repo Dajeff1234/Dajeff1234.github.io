@@ -36,6 +36,8 @@
 <style>
 
     :root {
+        font-family: 'Montserrat', sans-serif !important;
+        transition: 1s;
         background: rgb(36, 36, 36);
         color: rgb(212, 212, 212);
     }
@@ -46,11 +48,13 @@
     }
 
     .dark .nav-cont {
+        transition: 1s;
         background-color: rgb(209, 209, 209) !important;
     }
 
 
     .Button{
+        font-family: 'Montserrat', sans-serif;
         background:none;
         border:none;
         color: rgb(212, 212, 212);

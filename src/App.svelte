@@ -19,7 +19,12 @@
     font-family: 'Montserrat', sans-serif !important;
   }
   .welcom{
-    text-align: center;``
+    padding-top: 20%;
+    text-align: center;
+    font-size: 50px;
+  }
+  .welcom2{
+    text-align: center;
     font-size: 50px;
   }
 </style>
@@ -27,6 +32,7 @@
 <main>
   <Navbar/>
   {#if ready}
-  <div class = "welcom" transition:fly={{ x: '1500%' }}>welcom</div>
+  <div class = "welcom" transition:fly={{ x: '500%' }}>welcom</div>
   {/if}
+  <div class = "welcom2">to dajeff1234</div>
 </main>

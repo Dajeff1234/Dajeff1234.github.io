@@ -7,7 +7,6 @@
     <div class = "nav-cont">
         <ul class="navTent">
             <ui><ThemeButton/></ui>
-            
         </ul>
         <img src={Dajeff1234} alt="dajeff1234" class = "dajeff1234">
     </div>
@@ -15,6 +14,7 @@
 <style>
     
     .nav-cont{
+        font-family: 'Montserrat', sans-serif !important;
         margin: 0px;
         background-color: rgb(86, 86, 86);
         padding: 2px !important;;
