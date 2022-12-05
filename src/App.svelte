@@ -1,4 +1,5 @@
 <script>
+  import favicon from './lib/icons/f2.ico'
   import { fly } from './transitions';
   import Navbar from "./lib/Navbar.svelte";
   import { onMount } from 'svelte';
@@ -7,12 +8,12 @@
   let ready2 = false;
 </script>
 <svelte:head>
-  <link rel="icon" type="image/x-icon" href="src/lib/icons/f2.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="{favicon}">
 </svelte:head>
-<link rel="icon" type="image/x-icon" href="src/lib/icons/f2.ico">
+
 <style>
   
   :global(body) {
@@ -30,6 +31,11 @@
     text-align: center;
     font-size: 50px;
   }
+  main{
+    padding-bottom: 25%;
+  }
+  
+  
 </style>
 
 <main>
@@ -41,3 +47,9 @@
   <div class = "welcom2" transition:fly={{ y: '600%' }}>to dajeff1234</div>
   {/if}
 </main>
+<div class="newSection">
+  <div class = stuff>
+    hello
+  </div>
+ 
+</div>
