@@ -1,5 +1,5 @@
 <script>
-  import favicon from './lib/icons/f2.ico'
+  import favicon from './lib/icons/f3.ico'
   import { fly } from './transitions';
   import Navbar from "./lib/Navbar.svelte";
   import { onMount } from 'svelte';
